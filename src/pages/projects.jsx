@@ -2,7 +2,13 @@ import React from 'react'
 
 const projects = () => {
   return (
-    <div id='project' style={{height:'100vh', width:'100%'}}>projects</div>
+    <div id='project' className='project'>
+      <div className="projectshead">
+        <div className="projectmain">
+          This is a project
+        </div>
+      </div>
+    </div>
   )
 }
 
