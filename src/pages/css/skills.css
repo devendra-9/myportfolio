@@ -1,0 +1,68 @@
+.skills
+{
+    margin: 0px;
+    padding: 0px;
+}
+.skillshead
+{
+    width: 99%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.skillsmain
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skillsmain h1
+{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.skilllist
+{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.images
+{
+    height: 200px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.images p
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.images img
+{
+    width: 150px;
+    height: 150px; 
+}
+.images:hover
+{
+    cursor: pointer;
+    box-shadow: 8px 8px 50px 10px red;
+}
