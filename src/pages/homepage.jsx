@@ -4,6 +4,7 @@ import Project from '../pages/projects'
 import Skills from '../pages/Skills'
 import Contact from '../pages/contact'
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import './css/homepage.css'
 
 const homepage = () => {
@@ -17,6 +18,9 @@ const homepage = () => {
         <Project />
         <Skills />
         <Contact />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   )

@@ -53,3 +53,35 @@
 {
     color: red;
 }
+
+.footer
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.footermain
+{
+    padding-top: 10px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footermain h1
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(196, 189, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.footermain p
+{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(196, 189, 189);
+}

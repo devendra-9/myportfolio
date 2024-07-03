@@ -1,0 +1,188 @@
+.contact
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.contactmain
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.contactleft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactleft h1
+{
+    margin: 0px;
+    padding: 10px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+}
+.maildetails
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.maildetails h3
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maildetails p
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.maildetails p a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(160, 160, 238);
+}
+.maildetails p a:hover
+{
+    color: yellow;
+}
+.maildetails h4
+{
+    color: rgb(167, 235, 167);
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contactright
+{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius:20px;
+    height: 70%;
+    width: 60%;
+}
+.form h1
+{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    border-radius: 10px;
+    /* background-color: antiquewhite; */
+}
+.formdetails
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    /* background-color: antiquewhite; */
+}
+.email
+{
+    width: 90%;
+    margin: 0px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    gap: 3px;
+}
+.email input 
+{
+    padding: 5px;
+    padding-left: 20px;
+    width: 90%;
+    height: 30px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(83, 80, 80);
+    outline: none;
+}
+.email label
+{
+    padding: 0px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    color: white;
+    text-align: left;
+}
+.email textarea
+{
+    padding: 5px;
+    padding-left: 20px;
+    width: 90%;
+    height: 30px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(83, 80, 80);
+    outline: none;
+    height: 155px;
+}
+.formdetails button
+{
+    cursor: pointer;
+    border: 1px solid rgb(83, 80, 80);
+    width: 83%;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.formdetails button:hover
+{
+    border: 1px solid white;
+}
