@@ -1,0 +1,56 @@
+.navbar
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    border-bottom: 1px solid white;
+}
+.navbar-main
+{
+    /* background-color: antiquewhite;
+    opacity: 10px; */
+    margin:10px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-left h1
+{
+    color: rgb(197, 192, 192);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-right
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-right ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+.navbar-right ul li
+{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(197, 192, 192);
+    cursor: pointer;
+}
+.navbar-right ul li:hover
+{
+    color: red;
+}
