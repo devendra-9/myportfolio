@@ -4,15 +4,20 @@ import Project from '../pages/projects'
 import Skills from '../pages/Skills'
 import Contact from '../pages/contact'
 import Navbar from '../components/navbar'
+import './css/homepage.css'
 
 const homepage = () => {
   return (
     <div className="homepage">
-      <Navbar />
-      <About />
-      <Project />
-      <Skills />
-      <Contact />
+      <div className="navbardiv">
+        <Navbar />
+      </div>
+      <div className="navbardetails">
+        <About />
+        <Project />
+        <Skills />
+        <Contact />
+      </div>
     </div>
   )
 }

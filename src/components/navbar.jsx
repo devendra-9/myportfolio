@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './css/global.css'
 
 import { HashLink as Hash } from 'react-router-hash-link'
 
 const navbar = () => {
+  
+  const [click,setclick] = useState('about')
+
   return (
       <div className='navbar'>
         <div className="navbar-main">
